@@ -1,13 +1,16 @@
 import React from 'react'
-import SideMenu from './Blocks/SideMenu';
+// import SideMenu from './Blocks/SideMenu';
 import Statistics from './Blocks/Statistics';
+import SideMenu from '../../components/SideMenu/SideMenu';
+import MobileNav from '../../components/Navbar/MobileNav';
 
 const Dashboard = () => {
   return (
     <>
-    <div className='container-fluid'>
+    {/* web dashboard */}
+    <div className='container-fluid uk-visible@m'>
         <div className='row'>
-            <div style={{borderRight: '1px solid #E3E3E3'}} className='col-3'>
+            <div className="col-3" style={{borderRight: '1px solid #E3E3E3'}}>
             <SideMenu />
             </div>
             <div className='col-9'>
@@ -15,6 +18,12 @@ const Dashboard = () => {
             </div>
         </div>
         
+    </div>
+
+    {/* mobile dashboard */}
+    <div className='uk-hidden@m'>
+      <MobileNav />
+      <Statistics />
     </div>
     </>
   )

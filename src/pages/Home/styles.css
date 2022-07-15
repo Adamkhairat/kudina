@@ -15,6 +15,7 @@
 
 .mobile-display{
     font-size: 33.18px;
+    font-weight: 600;
 }
 
 .heading-one{
@@ -62,15 +63,16 @@
 }
 
 .sidemenu{
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .sidemenu:hover{
     background-color: #CD2844;
-    color: white;
+    color: white !important;
    
 }
 
 .subtext-color{
     color: #807D9B;
 }
+

@@ -1,10 +1,15 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import MobileNav from '../../../components/Navbar/MobileNav';
 
 const  Navbar = () => {
   return (
     <div>
-        <nav class="uk-navbar-container uk-navbar-transparent uk-text-center" uk-navbar>
+        {/* mobile screen navigation */}
+        <MobileNav />
+
+        {/* large screen navigation */}
+        <nav class="uk-navbar-container uk-navbar-transparent uk-text-center uk-visible@m" uk-navbar>
             <div class="uk-navbar-left uk-text-center">
                 <ul class="uk-navbar-item">
                     <li style={{listStyle: 'none'}} class="uk-active body-large-bold"><a style={{textDecoration: 'none', color: 'black'}} href="#/">Kudina<span style={{color: '#CD2844'}}>.</span></a></li>

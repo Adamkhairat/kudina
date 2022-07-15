@@ -3,13 +3,22 @@ import {Link} from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <div className='uk-text-center'>
+    <>
+      <div className='uk-hidden@m uk-text-center'>
+      <div className='mobile-display'>Making More Possible <br></br> With Kudina</div>
+        <div>We provide financial solutions that excellently drive your progress.</div>
+        <Link className='' to="/login">
+          <button style={{backgroundColor: '#CD2844', color: '#ffffff'}} className='uk-button uk-margin-large-top '>Get Started</button>
+        </Link>
+      </div>
+      <div className='uk-text-center uk-visible@m'>
         <div className='web-display'>Making More Possible <br></br> With Kudina</div>
         <div>We provide financial solutions that excellently drive your progress.</div>
         <Link className='' to="/login">
           <button style={{backgroundColor: '#CD2844', color: '#ffffff'}} className='uk-button uk-margin-large-top '>Get Started</button>
         </Link>
-    </div>
+      </div>
+    </>
   )
 }
 

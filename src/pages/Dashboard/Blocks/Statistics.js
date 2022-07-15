@@ -8,8 +8,8 @@ const Statistics = () => {
         <div className='body-normal-bold'>Good Morning, Alexander</div>
         <div className='body-small subtext-color'>Welcome back, nice to see you again!</div>
 
-        <div className='row uk-margin-medium-top'>
-            <div className='col-4'>
+        <div className='row uk-margin-top'>
+            <div className='col-md-4 col-sm-6 uk-margin-top'>
                 <div style={{border: '1px solid #E3E3E3', borderRadius: '10px'}} className='uk-card uk-card-body'>
                     <div style={{justifyContent: 'space-between'}} className='uk-flex'>
                         <div>Advance</div>
@@ -19,7 +19,7 @@ const Statistics = () => {
                     <div className='subtext-color'>16-06-2022</div>
                 </div>
             </div>
-            <div className='col-4'>
+            <div className='col-md-4 col-sm-6 uk-margin-top'>
                 <div style={{border: '1px solid #E3E3E3', borderRadius: '10px'}} className='uk-card uk-card-body'>
                     <div style={{justifyContent: 'space-between'}} className='uk-flex'>
                         <div>Recovery</div>
@@ -29,7 +29,7 @@ const Statistics = () => {
                     <div className='subtext-color'>16-06-2022</div>
                 </div>
             </div>
-            <div className='col-4'>
+            <div className='col-md-4 col-sm-6 uk-margin-top'>
                 <div style={{border: '1px solid #E3E3E3', borderRadius: '10px'}} className='uk-card uk-card-body'>
                     <div style={{justifyContent: 'space-between'}} className='uk-flex'>
                         <div>Accumulation</div>
