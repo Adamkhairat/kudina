@@ -40,7 +40,7 @@ const MobileNav = () => {
                     <div className='uk-margin-top'><a className='body-small' style={{textDecoration: 'none', padding: 20, color: 'black'}} href="#/">Contact</a></div>
                     <div className='uk-margin-top'>
                     <Link to="/login">
-                        <button style={{borderColor: '#CD2844', color: '#CD2844'}} class="uk-button uk-button-default">Get Started</button>
+                      <button style={{borderColor: '#CD2844', color: '#CD2844'}} class="uk-button uk-button-default">Get Started</button>
                     </Link>
                     </div>
                 </ul>
